@@ -39,13 +39,14 @@ cacheSolve<- function(x, ...) {
   m
 }
 
+## what follows is a matrix in order to test the above functions
+
 x1= c(10,7)
 
 x2= c(5,3)
 x.all=c(x1,x2)
 
 nam=c("Maria","mixalis") # gives names to each element of an object
-
 
 Marias_Matrix=matrix(x.all, 2, 2,dimnames =list(c("Math","Physics"),nam) )
 
